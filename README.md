@@ -56,5 +56,5 @@ This API is deployed at [https://movie-spots.herokuapp.com](https://movie-spots.
   }
   ```
   returns the json response of all the matching movie title name with limit of 5.
-* (GET) https://movie-spots.herokuapp.com/api/search/single?title=\<Movie Title\>
+* (GET) https://movie-spots.herokuapp.com/api/search/single?title=<Movie Title\>
   returns the json response of all the matching movie title name with no limit.
