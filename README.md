@@ -33,7 +33,8 @@ Backend for Movie Spots webapp
   ```bash
   export MONGODB_URI=mongodb://localhost:27017/
   ```
-5. Start the server using `npm start`
+5. Import CSV data by running `node data/migrate.js`  
+6. Start the server using `npm start`
 
 ---
 
