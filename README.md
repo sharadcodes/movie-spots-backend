@@ -1,8 +1,12 @@
 # Movie Spots Backend
 
 Backend for Movie Spots webapp
+#### API deployed at Heroku
 
-**Front End Code for this project** is at [https://github.com/sharadcodes/movie-spots](https://github.com/sharadcodes/movie-spots)
+[https://movie-spots.herokuapp.com](https://movie-spots.herokuapp.com/api/all)
+
+#### Front End Code Repository
+[https://github.com/sharadcodes/movie-spots](https://github.com/sharadcodes/movie-spots)
 
 ---
 
@@ -40,7 +44,7 @@ Backend for Movie Spots webapp
 
 ## API DOCS
 
-This API is deployed at [https://movie-spots.herokuapp.com](http://movie-spots.herokuapp.com).
+This API is deployed at [https://movie-spots.herokuapp.com](https://movie-spots.herokuapp.com).
 
 #### API Endpoints
 * (GET) https://movie-spots.herokuapp.com/api/all (Returns 50 Movies)
