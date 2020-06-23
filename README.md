@@ -39,11 +39,11 @@ Backend for Movie Spots webapp
 
 ## API DOCS
 
-This API is deployed at [http://movie-spots.herokuapp.com](http://movie-spots.herokuapp.com).
+This API is deployed at [https://movie-spots.herokuapp.com](http://movie-spots.herokuapp.com).
 
 #### API Endpoints
-* (GET) http://movie-spots.herokuapp.com/api/all (Returns 50 Movies)
-* (POST) http://movie-spots.herokuapp.com/api/search/ 
+* (GET) https://movie-spots.herokuapp.com/api/all (Returns 50 Movies)
+* (POST) https://movie-spots.herokuapp.com/api/search/ 
   Expects `Content-Type: application/json` with body as follows:
   ```js
   {
@@ -51,5 +51,5 @@ This API is deployed at [http://movie-spots.herokuapp.com](http://movie-spots.he
   }
   ```
   returns the json response of all the matching movie title name with limit of 5.
-* (GET) http://movie-spots.herokuapp.com/api/search/single?title=\<Movie Title\>
+* (GET) https://movie-spots.herokuapp.com/api/search/single?title=\<Movie Title\>
   returns the json response of all the matching movie title name with no limit.
